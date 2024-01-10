@@ -386,3 +386,45 @@ white-space: nowrap;
           font-size: 5em;
         }
       } 
+      
+
+       /* Novidades */
+       #new-products {
+        margin-bottom: 5em;
+      }
+
+      #new-products-banner {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+      }
+
+      #new-products-banner h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        font-size: 2em;
+      }
+
+      #new-products-banner p {
+        font-size: 0.9em;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        white-space: nowrap;
+      }
+
+      #new-products .col-md-4 {
+        padding: 0;
+      }
+
+      #new-products .card .card-title {
+        color: #FFF;
+        font-size: 1em;
+      }
+
+      #new-products .card img {
+        height: 150px;
+        width: 90px;
+        margin: 2em auto;
+      }
