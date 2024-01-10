@@ -34,3 +34,136 @@ body {
 .light-color {
   color: #FCF5EB
 }
+
+ /* Botão */
+
+ .btn {
+  background-color: transparent;
+  border: 2px solid #C09578;
+}
+
+.btn:hover {
+  background-color: #C09578;
+  border: 2px solid #C09578;
+}
+
+/* NAVBAR */
+/* SOBREESCREVER OS ESTILOS DO BOOTSTRAP */
+#navbar .navbar-nav {
+flex-direction: row;
+justify-content: end;
+}
+
+#navbar .navbar-nav li {
+ margin-left: 1em; /* A medida em serve para dar responsividade com base na fonte do elemento pai */
+}
+
+#navbar a,
+#navbar button {
+color: #FFF;
+}
+
+#navbar li {
+position: relative;
+}
+
+#navbar i {
+font-size: 20px;
+}
+
+#navbar span {
+position: absolute;
+top: -8px;
+right: -8px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #ef0000;
+text-align: center;
+}
+
+#bag-item span {
+left: 20px;
+}
+
+.navbar-brand {
+font-weight: 700;
+width: 100%;
+text-align: center;
+}
+
+@media(min-width: 768px) {
+.navbar-brand {
+  text-align: left;
+}
+}
+
+#navbar-items {
+justify-content: space-between;
+white-space: nowrap;
+}
+
+@media(min-width: 768px) {
+#navbar-items {
+  display: flex;
+  min-width: 80%;
+ }
+}
+
+/* Personalização do input */
+#search-form,
+#news-form {
+  width: 100%;
+  margin: 2em 0;
+}
+
+@media(min-width: 768px) {
+  #search-form {
+    width: 50%;
+    margin: 0;
+   }
+ }
+
+ #search-form input,
+ #news-form input {
+   background-color: transparent;
+   border: none;
+   color: #FFF;
+  }
+  #search-form,
+  #news-form {
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+  }
+  
+  
+  #search-form input:focus,
+  #news-form input:focus {
+    box-shadow: none;
+  }
+
+#search-form input::placeholder,
+#news-form input::placeholder {
+  color: #FFF;
+}
+
+/* NavBar secundaria */
+#navbar-secondary .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#navbar-secondary .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+#navbar-secondary .nav-link {
+  font-weight: 600;
+  color: #FFF;
+}
+
+#navbar-secondary .navbar-toggler {
+  border: none;
+}
