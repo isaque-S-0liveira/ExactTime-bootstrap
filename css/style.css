@@ -386,7 +386,7 @@ white-space: nowrap;
           font-size: 5em;
         }
       } 
-      
+
 
        /* Novidades */
        #new-products {
@@ -427,4 +427,42 @@ white-space: nowrap;
         height: 150px;
         width: 90px;
         margin: 2em auto;
+      }
+
+       /* Gallery */
+       #gallery .image-container {
+        background-size: cover;
+        background-position: center;
+        height: 225px;
+        cursor: pointer;
+        transition: .5s;
+        border: 3px solid #101010;
+      }
+
+      #gallery .image-container:hover {
+        border-color: #C09578;
+      }
+
+      #gallery-1 {
+        background-image: url('../img/insta1.jpg');
+      }
+
+      #gallery-2 {
+        background-image: url('../img/insta2.jpg');
+      }
+
+      #gallery-3 {
+        background-image: url('../img/insta3.jpg');
+      }
+
+      #gallery-4 {
+        background-image: url('../img/insta4.jpg');
+      }
+
+      #gallery-5 {
+        background-image: url('../img/insta5.jpg');
+      }
+
+      #gallery-6 {
+        background-image: url('../img/insta6.jpg');
       }
