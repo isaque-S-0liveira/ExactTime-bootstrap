@@ -339,3 +339,50 @@ white-space: nowrap;
         font-weight: bold;
         transition: .5s;
       }
+
+
+      /* Destaque */
+
+      #destaque {
+        padding: 6em;
+        margin-bottom: 3em;
+      }
+
+      #destaque .primary-color {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      #destaque .secondary-color {
+        font-weight: bold;
+      }
+
+      #destaque a {
+        color: #FFF;
+        font-weight: bold;
+        padding: 1em;
+        transition: .5s;
+        margin-top: 2em;
+      }
+
+      #destaque h1 {
+        text-transform: uppercase;
+        font-weight: 900;    
+        font-size: 2em;
+      }
+
+      #destaque .col-md-4 {
+        text-align: center;
+      }
+
+
+      #destaque img {
+        padding: 1em;
+        max-width: 175px;
+      }
+
+      @media(min-width: 768px) {
+        #destaque h1 {   
+          font-size: 5em;
+        }
+      } 
