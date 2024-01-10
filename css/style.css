@@ -167,3 +167,36 @@ white-space: nowrap;
 #navbar-secondary .navbar-toggler {
   border: none;
 }
+
+/* Caroussel */
+
+#banners-container {
+  padding: 0;
+}
+
+.carousel-caption {
+  bottom: 5em;
+  padding: 1em;
+  right: 12%;
+  left: 12%;
+}
+
+.carousel-caption h5 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+@media(min-width: 768px) {
+  #slider .carousel-item,
+  #slider img {
+    height: 600px;
+  }
+  .carousel-caption {
+    right: 23%;
+    left: 23%;
+  }  
+
+  .carousel-caption h5 {
+    font-size: 3em;
+  }
+ }
