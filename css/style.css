@@ -265,3 +265,77 @@ white-space: nowrap;
       #mini-banners #mini-banner-3 h2 {
         color: #404040;
       }
+
+         /* BEST SELLERS */
+
+     #best-sellers {
+      padding: 4em 0;
+     }
+
+     #best-sellers .row {
+      margin: 0; /* Para remover o margin negativo do bootstrap */
+     }
+
+     #best-sellers .col-md-3 {
+      padding: 0; /* Para remover o padding do bootstrap */     
+    } 
+
+    .title {
+      text-transform: uppercase;
+      font-weight: 900;    
+      font-size: 2.5em;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+
+     #best-sellers .card {
+      display: flex;
+      align-items: center;
+      border: 1px solid rgba(192, 187, 187, 0.125);
+      background-color: transparent;
+      background-clip: border-box;
+      transition: .5s;
+      border-radius: 0;
+     }
+
+     #best-sellers .card img {
+      padding-top: 2.5em;
+      height: 300px;
+      width: 140px;
+     }
+
+     @media(min-width: 768px) {
+      #best-sellers .card img {
+        height: 270px !important;
+       }
+       .title {
+        text-align: left;
+       }
+     }
+
+     @media(min-width: 992px) {
+      #best-sellers .card img {
+        width: 50%;
+       }
+     }
+
+     #best-sellers .card .card-body {
+      padding-top: 4em;
+     }
+
+     #best-sellers .card .card-body h5 {
+      color: #fff
+      }
+
+      #best-sellers .card .card-body .card-text {
+        color: #C09578;
+        white-space: nowrap;
+        padding: 3em;
+        font-weight: bold;
+      }
+
+      #best-sellers a {
+        color: #FFF;
+        font-weight: bold;
+        transition: .5s;
+      }
